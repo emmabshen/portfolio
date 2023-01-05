@@ -78,10 +78,16 @@ a.nav{
 }
 
 .arrow{
-  width: 12px;
+  width: 18px;
+  padding-top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* featured work */ 
+
+/* old css */ 
 
 em{
   font-weight: bold;
