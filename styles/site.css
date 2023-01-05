@@ -1,0 +1,240 @@
+body{
+  background-color: #f1f6ff;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 12px;
+}
+
+h1{
+  font-family: "Verdana", Arial, sans-serif;
+  color: #2e4162;
+  text-transform: uppercase;
+}
+
+.Name{
+  font-family: "Verdana", Arial, sans-serif;
+  color: #2e4162;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+}
+
+h2{
+  font-family: "Verdana", Arial, sans-serif;
+  color: #2e4162;
+  font-weight: normal;
+}
+
+h3{
+  font-family: "Verdana", Arial, sans-serif;
+  color: #2e4162;
+  font-weight: normal;
+}
+
+h4{
+  font-family: "Verdana", Arial, sans-serif;
+  color: #2e4162;
+  font-weight: normal;
+}
+
+p{
+  font-family: "Verdana", Arial, sans-serif;
+  color: #2e4162;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+em{
+  font-weight: bold;
+  font-style: normal;
+}
+
+.About{
+  width: 50%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.Myphoto{
+  margin-top: 48px;
+}
+
+.Intro {
+  font-family: "Verdana", Arial, sans-serif;
+  color: #2e4162;
+  font-size: 24px;
+  text-align: center;
+  line-height: 8px;
+  font-weight: normal;
+}
+
+.Intro2{
+  font-family: "Verdana", Arial, sans-serif;
+  color: #2e4162;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.Aboutme{
+  text-align: center;
+}
+
+.Myresume{
+  text-align: center;
+}
+
+li{
+  font-family: "Verdana", Arial, sans-serif;
+  display: inline;
+}
+
+a.Nav{
+  color: #5e6b82;
+  text-transform: uppercase;
+  font-family: "Verdana", Arial, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #d6e3fa;
+  border-radius: 12px;
+  filter: drop-shadow(1px 1px 2px #adc7f2);
+  margin-right: 16px;
+  box-shadow: inset 0px 0px 1px 2px #dce7fb;
+}
+
+li a.Nav:hover{
+  background-color: #d6e3fa;
+  box-shadow: inset 0px 0px 1px 2px #e8effc;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border-radius: 18px;
+}
+
+.Resume{
+  height: 60%;
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.Footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #2e4162;
+  text-align: center;
+}
+
+.Contact{
+  text-align: center;
+  text-transform: none;
+  margin-top: 16px;
+  color: #2e4162;
+  font-family: "Verdana", Arial, sans-serif;
+}
+
+.Headshot{
+  margin-top: 36px;
+  margin-bottom: 36px;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 48px;
+  margin-bottom: 72px;
+}
+
+.Work{
+  text-align: center;
+  text-transform: none;
+  margin-top: 16px;
+  color: #2e4162;
+  font-family: "Verdana", Arial, sans-serif;
+}
+
+.Work2{
+  text-align: center;
+  text-transform: none;
+  margin-top: 48px;
+  margin-bottom: 72px;
+  color: #2e4162;
+  font-family: "Verdana", Arial, sans-serif;
+}
+
+nav.sticky-submenu{
+  background-color: white;
+}
+
+a.submenu-element{
+  color: #5e6b82;
+  text-transform: uppercase;
+  font-family: "Verdana", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 12px;
+  margin-right: 16px;
+}
+
+li a.submenu-element:hover{
+  color: #94abd4;
+}
+
+.hidden {
+  display: none;
+}
+
+.carousel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#novice0{
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+}
+
+#novice16{
+  height: 100%;
+  width: 40%;
+  margin-left: 35%
+}
+
+#novice15{
+  height: 100%;
+  width: 40%;
+  margin-left: 35%
+}
+
+.image{
+  height: 100%;
+  width: 25%;
+  margin-left: 40%
+}
+
+.arrow{
+  border: none;
+}
