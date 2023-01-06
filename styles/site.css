@@ -171,13 +171,17 @@ p.project-tag{
 
 /* footer */ 
 
+footer{
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
 img.icon{
   width: 30px;
   height: auto;
-}
-
-footer{
-  padding-bottom: 64px;
 }
 
 a.icon{
