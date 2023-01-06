@@ -48,7 +48,8 @@ h4.block-role{
 
 a{
   font-family: "Encode Sans", Arial, sans-serif;
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: 500;
   color: #000000;
 }
 
@@ -79,6 +80,7 @@ a.nav.name{
 a.nav{
   float: left;
   color: #000000;
+  font-weight: normal;
   text-decoration: none;
   display: block;
   margin-right: 12px;

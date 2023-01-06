@@ -2,84 +2,166 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> Work </title>
-  <link href= "styles/site.css" type= "text/css"
-  rel="stylesheet"/>
+  <title> Emma Shen </title>
+  <link href= "styles/site.css" type= "text/css" rel="stylesheet"/>
+  <link href='https://fonts.googleapis.com/css?family=Encode Sans' rel='stylesheet'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap" rel="stylesheet"/>
 </head>
 
 <body>
-  <h1 class= "Name"> Emma Shen </h1>
 
   <nav>
     <ul>
-      <li> <a class= "Nav" href= "index.html"> Home </a> </li>
-      <li> <a class= "Nav" href= "aboutme.html"> About </a> </li>
-      <li> <a class= "Nav" href= "work.html"> Work </a> </li>
-      <li> <a class= "Nav" href= "contact.html"> Contact </a> </li>
+      <li> <a class= "nav name" href= "index.html"> Emma Shen </a> </li>
+      <div class= "nav-right">
+        <li> <a class= "nav" href= "work.html"> Work </a> </li>
+        <li> <a class= "nav" href= "misc.html"> Misc </a> </li>
+        <li> <a class= "nav" href= "about.html"> About </a> </li>
+        <li> <a class= "nav" href= "resume.html"> Resume </a> </li>
+      </div>
     </ul>
   </nav>
 
-  <h2 class="Work"> Work </h2>
-
-  <h4> NoVice: Breaking bad habits one micro-investment at a time. </h4>
-
-  <div class= "carousel">
-    <button id= "go-left" class= "arrow"> &lt; </button>
-    <div class= "novice-carousel">
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image" id= "novice0" src="images/novice.png" alt= "The NoVice interface"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice1" src="images/novice/00.jpg" alt= "Frame 1"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice2" src="images/novice/01.jpg" alt= "Frame 2"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice3" src="images/novice/02.jpg" alt= "Frame 3"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice4" src="images/novice/03.jpg" alt= "Frame 4"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice5" src="images/novice/04.jpg" alt= "Frame 5"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice6" src="images/novice/05.jpg" alt= "Frame 6"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice7" src="images/novice/06.jpg" alt= "Frame 7"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice8" src="images/novice/07.jpg" alt= "Frame 8"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice9" src="images/novice/08.jpg" alt= "Frame 9"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice10" src="images/novice/09.jpg" alt= "Frame 10"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice11" src="images/novice/10.jpg" alt= "Frame 11"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice12" src="images/novice/11.jpg" alt= "Frame 12"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice13" src="images/novice/12.jpg" alt= "Frame 13"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice14" src="images/novice/13.jpg" alt= "Frame 14"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice15" src="images/novice/14.jpg" alt= "Frame 15"/>
-      <!-- Source: (original work) Emma Shen -->
-      <img class= "image hidden" id="novice16" src="images/novice/15.jpg" alt= "Frame 16"/>
+  <div class= 'hero'>
+    <div class= 'hero-content'>
+      <img class="headshot" src="images/headshot.png" alt= "headshot"/>
+      <div class= 'hero-text'>
+        <h1 class= "intro"> Emma Shen — that’s me!</h1>
+        <h4 class= "intro-blurb"> Right now, I’m at 
+          <a class= 'cornell' href= 'https://www.cornell.edu/''> Cornell University </a> 
+          studying <a class= 'infosci' href= 'https://infosci.cornell.edu/''> Information Science </a> and building products, systems, and communities like 
+          <a class= 'dcc' href= 'https://www.designconsultingcornell.com/''> Design Consulting at Cornell </a>
+          that inspire people. </h4>
+      </div>
     </div>
-    <button id= "go-right" class= "arrow"> &gt; </button>
   </div>
 
-  <h4> Swapp: A more sustainable way to move in college. Coming soon... </h4>
+  <img class="arrow" src="images/arrow.png" alt= "arrow"/>
 
-  <!-- Source: (original work) Emma Shen -->
-  <div>
-    <img src="images/swapp.png" alt="Image of Swapp interface"/>
+  <div class= 'project-blocks'>
+
+    <div class= 'block instabase'>
+      <img class='block-image ib' src="images/ib.png" alt= "instabase logo"/>  
+      <div class= 'block-text'>
+        <h4 class= 'block-role'> <span style="color: #EA4622">INSTABASE</span> Product Design Intern</h4>
+        <h2 class= 'block-heading'> Creating streamlined experiences to swiftly onboard the next generation of Instabase users</h2>
+        <ul class= 'project-tags'>
+          <li> <p class= 'project-tag'>Product Design</p> </li>
+          <li> <p class= 'project-tag'>UI/UX Design</p> </li>
+          <li> <p class= 'project-tag'>User Research</p> </li>
+          <li> <p class= 'project-tag'>Design Systems</p> </li>
+        </ul>
+        <p> Designing end-to-end experiences, initiating product concepts, and driving user activation through a highly requested user-onboarding feature</p>
+      </div>
+    </div>
+
+    <div class= 'block reverse oculo'>
+      <img class='block-image oculo' src="images/oculo.png" alt= "oculo logo"/>  
+      <div class= 'block-text'>
+        <h4 class= 'block-role'> <span style="color: #76A8F7">OCULO</span> Design Lead </h4>
+        <h2 class= 'block-heading'> Designing the Oculo Health V0 application </h2>
+        <ul class= 'project-tags'>
+          <li> <p class= 'project-tag'>Product Management</p> </li>
+          <li> <p class= 'project-tag'>Product Design</p> </li>
+          <li> <p class= 'project-tag'>UI/UX Design</p> </li>
+          <li> <p class= 'project-tag'>User Research</p> </li>
+        </ul>
+        <p> Crafting an experience that is intuitive, beautiful, and educational to help data-minded users understand and optimize their brains using eye-tracking, sleep data, and AI </p>
+      </div>
+    </div>
+
+    <div class= 'block ib-lite'>
+      <img class='block-image ib' src="images/ib-lite.png" alt= "instabase lite mockups"/>  
+      <div class= 'block-text'>
+        <h4 class= 'block-role'> <span style="color: #1E64EF">IB LITE</span> Hackathon Team Lead</h4>
+        <h2 class= 'block-heading'> Leading the Instabase Lite hackathon team </h2>
+        <ul class= 'project-tags'>
+          <li> <p class= 'project-tag'>Product Management</p> </li>
+          <li> <p class= 'project-tag'>UI/UX Design</p> </li>
+          <li> <p class= 'project-tag'>Product Design</p> </li>
+        </ul>
+        <p> Building an accessible and user-friendly data extraction, organization, and analysis platform from scratch using the Instabase SaaS API to bring the full power of Instabase to the every day business owner </p>
+      </div>
+    </div>
+
+    <div class= 'block reverse swapp'>
+      <img class='block-image swapp' src="images/swapp.png" alt= "swapp logo"/>  
+      <div class= 'block-text'>
+        <h4 class= 'block-role'> <span style="color: #21A02F">SWAPP</span> Design Lead </h4>
+        <h2 class= 'block-heading'> Promoting a circular economy on college campuses </h2>
+        <ul class= 'project-tags'>
+          <li> <p class= 'project-tag'>Product Design</p> </li>
+          <li> <p class= 'project-tag'>UI/UX Design</p> </li>
+          <li> <p class= 'project-tag'>Brand Identity</p> </li>
+          <li> <p class= 'project-tag'>User Research</p> </li>
+        </ul>
+        <p> Setting the direction for the application MVP, defining and prioritizing features and content, creating brand identity, and guiding the design, development, and marketing teams </p>
+      </div>
+    </div>
+
+    <div class= 'block repo'>
+      <img class='block-image repo' src="images/repo.png" alt= "repo logo"/>  
+      <div class= 'block-text'>
+        <h4 class= 'block-role'> <span style="color: #E75616">REPO</span> Case Study </h4>
+        <h2 class= 'block-heading'> Creating streamlined experiences to swiftly onboard the next generation of Instabase users</h2>
+        <ul class= 'project-tags'>
+          <li> <p class= 'project-tag'>Product Design</p> </li>
+          <li> <p class= 'project-tag'>UI/UX Design</p> </li>
+          <li> <p class= 'project-tag'>User Research</p> </li>
+          <li> <p class= 'project-tag'>Design Systems</p> </li>
+        </ul>
+        <p> Designing end-to-end experiences, initiating product concepts, and driving user activation through a highly requested user-onboarding feature</p>
+      </div>
+    </div>
+
+    <div class= 'block reverse airbnb'>
+      <img class='block-image airbnb' src="images/airbnb.png" alt= "airbnb together mockup"/>  
+      <div class= 'block-text'>
+        <h4 class= 'block-role'> <span style="color: #FF5A5F">AIRBNB TOGETHER</span> Case Study </h4>
+        <h2 class= 'block-heading'> Designing the Oculo Health V0 application </h2>
+        <ul class= 'project-tags'>
+          <li> <p class= 'project-tag'>Product Management</p> </li>
+          <li> <p class= 'project-tag'>Product Design</p> </li>
+          <li> <p class= 'project-tag'>UI/UX Design</p> </li>
+          <li> <p class= 'project-tag'>User Research</p> </li>
+        </ul>
+        <p> Crafting an experience that is intuitive, beautiful, and educational to help data-minded users understand and optimize their brains using eye-tracking, sleep data, and AI </p>
+      </div>
+    </div>
+
+    <div class= 'block sharespace'>
+      <img class='block-image sharespace' src="images/sharespace.png" alt= "sharespace logo"/>  
+      <div class= 'block-text'>
+        <h4 class= 'block-role'> <span style="color: #0064FF">SHARESPACE</span> Case Study </h4>
+        <h2 class= 'block-heading'> Creating streamlined experiences to swiftly onboard the next generation of Instabase users</h2>
+        <ul class= 'project-tags'>
+          <li> <p class= 'project-tag'>Product Design</p> </li>
+          <li> <p class= 'project-tag'>UI/UX Design</p> </li>
+          <li> <p class= 'project-tag'>User Research</p> </li>
+          <li> <p class= 'project-tag'>Design Systems</p> </li>
+        </ul>
+        <p> Designing end-to-end experiences, initiating product concepts, and driving user activation through a highly requested user-onboarding feature</p>
+      </div>
+    </div>
+
   </div>
 
-  <h4> Design at Cornell: A hub for designers and creatives at Cornell University. Coming soon... </h4>
-
-  <!-- Source: (original work) Emma Shen -->
-  <div>
-    <img src="images/dac.png" alt="Image of Design at Cornell interface"/>
-  </div>
-
-  <script type= "text/javascript" src= "scripts/jquery-3.6.0.js"></script>
-  <script type= "text/javascript" src= "scripts/interactivity.js"></script>
+  <footer>
+    <p class= 'footer'> Made with care by Emma Shen </p>
+    <div class= 'icons'>
+      <a class ='icon' href="mailto:ebs98@cornell.edu">
+        <img class ='icon' src="images/mail.png">
+      </a>
+      <a class ='icon' href="https://www.linkedin.com/in/emma-shen/">
+        <img class ='icon' src="images/linkedin.png">
+      </a>
+      <a class ='icon' href="https://drive.google.com/file/d/1h7z6JeHgunv32rGITgj_OkJM8AhklAE3/view">
+        <img class ='icon' src="images/resume.png">
+      </a>
+    </div>
+  </footer>
 
 </body>
 
