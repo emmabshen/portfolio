@@ -67,6 +67,16 @@ a.infosci:hover{
 
 /* navigation bar */ 
 
+
+li{
+  display: inline;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
 nav{
   overflow: hidden;
   width: 100%;
@@ -286,168 +296,95 @@ a.icon{
 p.footer{
   color: #757575;
 }
-/* old css */ 
 
-em{
-  font-weight: bold;
-  font-style: normal;
-}
+/* MOBILE STYLING */
 
-.About{
-  width: 50%;
-  display: block;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 24px;
-}
+@media (max-width: 850px) {
 
-.Myphoto{
-  margin-top: 48px;
-}
+  body{
+    padding: 12px;
+  }
 
-.Intro {
-  font-family: "Verdana", Arial, sans-serif;
-  color: #2e4162;
-  font-size: 24px;
-  text-align: center;
-  line-height: 8px;
-  font-weight: normal;
-}
+  h1{
+    font-size: 18px;
+    font-weight: 500;
+  }
 
-.Intro2{
-  font-family: "Verdana", Arial, sans-serif;
-  color: #2e4162;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-}
+  h2{
+    font-size: 16px;
+    font-weight: 500;
+  }
 
-.Aboutme{
-  text-align: center;
-}
+  h4{
+    font-size: 14px;
+  }
 
-.Myresume{
-  text-align: center;
-}
+  p{
+    font-size: 12px;
+  }
 
-li{
-  font-family: "Verdana", Arial, sans-serif;
-  display: inline;
-}
+  /* HERO - MOBILE */
 
+  .hero{
+    padding-top: 56px;
+  }
 
-ul{
-  list-style-type: none;
-  padding: 0;
-}
+  .hero-content{
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    row-gap: 24px;
+  }
 
-.Resume{
-  height: 60%;
-  width: 60%;
-  margin: auto;
-  display: block;
-}
+  .headshot{
+    min-width: 200px;
+    max-width: 500px;
+  }
 
-.Footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: #2e4162;
-  text-align: center;
-}
+  .arrow{
+    padding-top: 24px;
+    }
 
-.Contact{
-  text-align: center;
-  text-transform: none;
-  margin-top: 16px;
-  color: #2e4162;
-  font-family: "Verdana", Arial, sans-serif;
-}
+  /* PROJECTS (HOME) - MOBILE */
 
-.Headshot{
-  margin-top: 36px;
-  margin-bottom: 36px;
-  border-radius: 50%;
-  width: 50%;
-  height: 50%;
-  display: block;
-  margin: auto;
-  margin-top: 48px;
-  margin-bottom: 72px;
-}
+  .project-blocks{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    row-gap: 50px;
+  }
 
-.Work{
-  text-align: center;
-  text-transform: none;
-  margin-top: 16px;
-  color: #2e4162;
-  font-family: "Verdana", Arial, sans-serif;
-}
+  .block{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
 
-.Work2{
-  text-align: center;
-  text-transform: none;
-  margin-top: 48px;
-  margin-bottom: 72px;
-  color: #2e4162;
-  font-family: "Verdana", Arial, sans-serif;
-}
+  .block.reverse{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 
-nav.sticky-submenu{
-  background-color: white;
-}
+  .block-image{
+    min-width: 200px;
+    max-width: 500px;
+  }
 
-a.submenu-element{
-  color: #5e6b82;
-  text-transform: uppercase;
-  font-family: "Verdana", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-  text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 12px;
-  margin-right: 16px;
-}
+  .project-tags{
+    justify-content: center;
+  }
 
-li a.submenu-element:hover{
-  color: #94abd4;
-}
+  .project-tag{
+    margin: 0;
+  }
 
-.hidden {
-  display: none;
-}
+  .block-text{
+    width: 80%;
+  }
 
-.carousel{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .block-heading{
+    margin: 0;
+  }
 
-#novice0{
-  height: 100%;
-  width: 100%;
-  margin-left: 0;
-}
-
-#novice16{
-  height: 100%;
-  width: 40%;
-  margin-left: 35%
-}
-
-#novice15{
-  height: 100%;
-  width: 40%;
-  margin-left: 35%
-}
-
-.image{
-  height: 100%;
-  width: 25%;
-  margin-left: 40%
-}
-
-.arrow{
-  border: none;
 }
